@@ -154,8 +154,8 @@ async def start(client: Client, msg: Message):
 
 @bot.on_message(filters.command(["stop"]) )
 async def restart_handler(_, m):
-         await m.reply_text("⚠️𝙎𝙩𝙤𝙥🤭", True)
-          os.execl(sys.executable, sys.executable, *sys.argv)
+    await m.reply_text("**STOPPED**🛑", True)
+    os.execl(sys.executable, sys.executable, *sys.argv)
 
 @bot.on_message(filters.command(["drm"]))
 async def txt_handler(bot: Client, m: Message):
