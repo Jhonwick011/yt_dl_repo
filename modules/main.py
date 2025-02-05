@@ -158,7 +158,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["ankit","upload"]) )
+@bot.on_message(filters.command(["drm","upload"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -388,7 +388,7 @@ async def txt_handler(bot: Client, m: Message):
 
 # Advance
 
-@bot.on_message(filters.command(["radha"]) )
+@bot.on_message(filters.command(["/drm1"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**📁Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -624,7 +624,7 @@ async def txt_handler(bot: Client, m: Message):
 
 # Ankitshakya
 
-@bot.on_message(filters.command(["anu"]))
+@bot.on_message(filters.command(["/drm2"]))
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -857,7 +857,7 @@ async def txt_handler(bot: Client, m: Message):
 
 # m3u8
 
-@bot.on_message(filters.command(["ankit1"]))
+@bot.on_message(filters.command(["drm3"]))
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -1098,7 +1098,7 @@ async def txt_handler(bot: Client, m: Message):
     await m.reply_text("✨Thankyou For Choosing")
 
 
-@bot.on_message(filters.command(["alpha"]))
+@bot.on_message(filters.command(["/drm4"]))
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
