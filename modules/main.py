@@ -314,8 +314,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID**: {str(count).zfill(3)}.\n\n **Title**: {name1} .mkv\n\n📚 **Batch Name**: {b_name}\n\n📥 **Extracted By :[{CR}](https://t.me/jhon_wick2024)\n**'
-                cc1 = f'**📁 PDF_ID**: {str(count).zfill(3)}.\n\n **Title**: {name1} .pdf\n\n📚 **Batch Name**: {b_name}\n\n📥 **Extracted By :[{CR}](https://t.me/jhon_wick2024)\n**'
+                cc = f'**🎞️ VID_ID**: {str(count).zfill(3)}.\n📃 **Title**: {name1} .mkv\n📚 **Batch Name**: {b_name}\n\n📥 **Extracted By :[{CR}](https://t.me/jhon_wick2024)\n**'
+                cc1 = f'**📁 PDF_ID**: {str(count).zfill(3)}.\n📃 **Title**: {name1} .pdf\n📚 **Batch Name**: {b_name}\n\n📥 **Extracted By :[{CR}](https://t.me/jhon_wick2024)\n**'
                     
                 
                 if "drive" in url:
